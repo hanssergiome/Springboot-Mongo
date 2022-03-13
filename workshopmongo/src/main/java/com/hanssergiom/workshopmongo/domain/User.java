@@ -3,11 +3,18 @@ package com.hanssergiom.workshopmongo.domain;
 import java.io.Serializable;
 import java.util.Objects;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+//integrando com o banco MONGO, collection = pasta no banco"
+@Document(collection = "user")
+
 // Serializable - objetos convertidos em bytes para serem trafegados em redes ou gravados em arquivo.
 public class User implements Serializable {
-    //User setado como Serial Padrão
+	// User setado como Serial Padrão
 	private static final long serialVersionUID = 1L;
-	// Classe Segundo Projeto
+	//
+	@Id
 	private String id;
 	private String name;
 	private String email;
