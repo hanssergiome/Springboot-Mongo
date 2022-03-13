@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "622e648618ea5b31c6d9b84a"
+  },
+  "name": "Maria",
+  "email": "maria@gmail.com",
+  "_class": "com.hanssergiom.workshopmongo.domain.User"
+},{
+  "_id": {
+    "$oid": "622e648618ea5b31c6d9b84b"
+  },
+  "name": "Alex",
+  "email": "alex@gmail.com",
+  "_class": "com.hanssergiom.workshopmongo.domain.User"
+},{
+  "_id": {
+    "$oid": "622e648618ea5b31c6d9b84c"
+  },
+  "name": "Bob",
+  "email": "bob@gmail.com",
+  "_class": "com.hanssergiom.workshopmongo.domain.User"
+},{
+  "_id": {
+    "$oid": "622e64b118ea5b31c6d9b84d"
+  },
+  "name": "alexandre",
+  "email": "alexandre@gmail.com",
+  "_class": "com.hanssergiom.workshopmongo.domain.User"
+}]
